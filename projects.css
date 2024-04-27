@@ -1,0 +1,120 @@
+body{
+    background-color: #FAFAD2;
+}
+.navbar {
+    background-color: #425664 !important;
+}
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+}
+/* PROJECTS */
+.project-container {
+    background-color: #d8e1e6;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+ 
+}
+
+@media (max-width: 575.98px) { 
+    /* Extra small devices (portrait phones, less than 576px) */
+    .project-container {
+      font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    /* Small devices (landscape phones, 576px and up) */
+    .project-container {
+      font-size: 16px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    /* Medium devices (tablets, 768px and up) */
+    .project-container {
+      font-size: 18px;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Large devices (desktops, 992px and up) */
+    .project-container {
+      font-size: 20px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    /* Extra large devices (large desktops, 1200px and up) */
+    .project-container {
+      font-size: 22px;
+    }
+  }
+  
+/* PROJECTS */
+
+ /* FOOTER */
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .footer {
+        font-size: 12px;
+    }
+    .footer .list-inline-item a {
+        font-size: 10px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .footer {
+        font-size: 14px;
+    }
+    .footer .list-inline-item a {
+        font-size: 12px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .footer {
+        font-size: 16px;
+    }
+    .footer .list-inline-item a {
+        font-size: 14px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .footer {
+        font-size: 18px;
+    }
+    .footer .list-inline-item a {
+        font-size: 16px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .footer {
+        font-size: 20px;
+    }
+    .footer .list-inline-item a {
+        font-size: 18px;
+    }
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .content {
+    flex: 1;
+  }
+
+  
+
+ /* FOOTER */
